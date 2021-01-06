@@ -1,3 +1,7 @@
+* {
+  font-family: 'Oxygen', sans-serif;
+  }
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -17,7 +21,7 @@
     margin: 30px;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 27px;
     color: #818181;
     display: block;
   }
@@ -33,27 +37,32 @@
     padding: 0px 10px;
   }
   .main h2{
-    font-size: 40px;
+    font-size: 50px;
     margin: 20px;
   }
+  p {
+    font-size: 25px;
+  }
   .picture {
-    width: 120px;
-    height: 140px;
+    width: 140px;
+    height: 160px;
     margin: 40px 0 0 40px;
+    border-radius: 50%;
   }
   .name {
-    font-size: 23px;
+    font-size: 29px;
     color: white;
     margin: 10px 10px 0 10px;
   }
   .title {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     margin: 10px 0 0 30px;
   }
   .contact p {
     display: inline-block;
   }
+
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
