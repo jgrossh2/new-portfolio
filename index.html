@@ -1,30 +1,139 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portfolio: Joanna Grosshans</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <!-- <script src='main.js'></script> -->
-</head>
-<body>
-    <div class="sidenav">
-        <div>
-            <img class="picture" src= "./assets/images/pic.jpg"/> 
-        </div>
-        <p class="name">Joanna Grosshans</p>
-        <p class="title">Web Developer</p>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
+  </head>
+  <body>
+    <aside class="sidenav">
+      <div>
+        <img class="picture" src="./assets/images/pic.jpg" />
+      </div>
+      <p class="name">JOANNA GROSSHANS</p>
+      <p class="title">WEB DEVELOPER</p>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </aside>
     <div class="main">
-        <h2>Portfolio</h2>
-        <p>Project number 1</p>
-        <p>Project number 2</p>
-        <p>Project number 3</p>
+      <div id="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="card mb-3">
+          <img src="./assets/images/santa.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="https://sleepy-citadel-54217.herokuapp.com"
+                >SANTA'S HELPER</a
+              >
+            </h5>
+            <p class="card-text">
+              This is an application that was created to help with preparing for
+              the holidays. Upon creating an account or logging into an existing
+              account, the user can view food recipes, drinks, and wishlists.
+              The user can add, edit, and delete any of their own posts from any
+              of those sections.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Group work. Technologies used: </small>
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./assets/images/word-generator.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">TALLY MAX WORD GENERATOR</h5>
+            <p class="card-text">
+              This is an application created especially for those who like word
+              games. Upon entering the application, the user can search for
+              words that are created using up tp 5 letters. The user can click
+              and drag the letters from the keyboard and drag them into the drop
+              zone. After, the choice of finding 2 or 3 letter words. The words
+              are then displayed, along with the option to learn the definition
+              of the word as well a sound bite to hear pronunciation.
+            </p>
+            <p class="card-text">
+              <small class="text-muted"
+                >Group project. Technologies used:
+              </small>
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./assets/images/cms-blog.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">CMS-BLOG</h5>
+            <p class="card-text">
+              CMS blog was created as an online environment for users to write
+              posts about the tech world. After either signing in or signing up,
+              the user can create, edit, delete, or comment on posts. The
+              dashboard shows all of the posts created.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Technologies used: </small>
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img
+            src="./assets/images/work-scheduler.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">WORK-DAY SCHEDULER</h5>
+            <p class="card-text">
+              Work Day Scheduler was created to keep track of daily tasks.
+              During the current hour, the row is shaded green, the rows during
+              the past time shaded gray, and future time is shaded blue.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Technologies used: </small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="about">
+        <h2>ABOUT</h2>
+        <p>
+          Based in Milwaukee, I am an up and coming web developer. As a
+          classically trained violinist, I love the process of creating art and
+          continuously learning to improve my craft. I enjoy the challenge of
+          finding the best way to solve an issue.
+        </p>
+      </div>
+      <div id="contact" class="contact">
+        <h2>CONTACT</h2>
+        <p>
+          <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/"
+            >LINKEDIN</a
+          >
+        </p>
+        <p>
+          <a href="https://github.com/jgrossh2">GITHUB</a>
+        </p>
+        <p>
+          <a href="mailto:joannagrosshans2@gmail.com">@JOANNA GROSSHANS</a>
+        </p>
+        <p>
+          <label for="phone">PHONE: #847.347.7356</label>
+        </p>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

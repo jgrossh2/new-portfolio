@@ -14,6 +14,7 @@
   
   /* The navigation menu links */
   .sidenav a {
+    margin: 30px;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -31,10 +32,13 @@
     margin-left: 200px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
+  .main h2{
+    font-size: 40px;
+  }
   .picture {
-    width: 100px;
-    height: 120px;
-    margin: 0 0 0 50px;
+    width: 120px;
+    height: 140px;
+    margin: 40px 0 0 40px;
   }
   .name {
     font-size: 24px;
@@ -45,6 +49,9 @@
     font-size: 20px;
     color: white;
     margin: 10px 0 0 30px;
+  }
+  .contact p {
+    display: inline-block;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
